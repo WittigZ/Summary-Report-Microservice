@@ -1,0 +1,11 @@
+{
+    "status": "success",
+    "report_type": "priority_summary",
+    "data_type": "tasks",
+    "total_items": 5,
+    "priorities": {
+        "High": 3,
+        "Low": 1,
+        "Medium": 1
+    }
+}
