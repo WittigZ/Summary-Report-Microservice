@@ -113,13 +113,3 @@ os.remove("summary-response.json")
 ## UML Sequence Diagram
 
 ![UML Sequence Diagram](uml_sequence_diagram.png)
-
-The diagram shows:
-1. The requesting program writes a request to `summary-request.json`.
-2. The microservice reads the request file.
-3. The microservice generates the report.
-4. The microservice writes the response to `summary-response.json`.
-5. The requesting program reads the response file.
-6. The response file is deleted after it is read.
-
----
